@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When creating a new repository by typing "git init" a new hidden directory named ".git" will be created in the directory you're currently in.
+It will contain no initial commit because you have to do it on your own, to create a new comment.
+You have to create a new repository, so git knows where to put all the commits.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a dynamic spot where you can put different files which should be committed and put into the repository.
+It's the interface between the working directory and the repository.
+It's very valuable because you can decide which files should be committed and which shouldn't. 
+You can split up different changes in different commits, which makes debugging more efficient and makes the repository more clear.
