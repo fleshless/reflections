@@ -1,0 +1,59 @@
+using diff to compare two files helped by showing the differences between the two files.
+every change that was made by comparing the two files was exactly shown ,by marking them with
+a "-" when a content is removed in the new file. changes that have been added to the new file
+were marken with a "+"-sign. also the line and column of the changes where marked, so the 
+change can easily be located in the file.
+
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+if ever a bug is detected and cannot easily be fixed or found it could be helpful
+to jump back to an older version and check if the bug already appeared in that
+state of the program. If it doesn't appear it has to be in some of the most recent changes.
+another fact could be that you can see a certain progress over time, by comparing two versions
+and see how many things have changed
+
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pros:
+	- full control over commits
+	- only changes that i want to have in one commit are included
+	- no logical errors appear in commits, whereas automatic commits could just cut a line of code and make the program non-executable
+
+cons:
+	- takes a lot more time that automatic commits
+	- you could forget to commit at certain points, so the commits may be too big
+	- takes some time to get used to the procedure
+
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because it will be much easier to jump back to a certain point of a software if nessesary. You don't have to separate all the files an find which files belong to a certain state of the programm
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+with git log you can see all changes that were made in the past ordered ascending.
+After using this command you can see the date, a comment on what has changed and the id of the commit, which is further needed for comparing to files.
+By using git diff "id_old" "id_new" you will see the changes that were made.
+
+
+
+
+How might using version control make you more confident to make changes that could break something?
+You always have the insurance to jump back to a certain point, so you don't have to be worried about breaking some other functionality.
+By jumping back to an older version you can find out where the bug first appeared and check for the changes that were made recently by comparing the two commits with git diff
+
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try out git while developing an adroid app
