@@ -11,3 +11,9 @@ The staging area is a dynamic spot where you can put different files which shoul
 It's the interface between the working directory and the repository.
 It's very valuable because you can decide which files should be committed and which shouldn't. 
 You can split up different changes in different commits, which makes debugging more efficient and makes the repository more clear.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add only the file with the change to the staging area, so it will be separately committed.
+Also you can compare the staging area to the least commit by using git diff --staged and check if there is only one logical change.
+You can compare the staging area with your working directory by using git diff whithout any parameters to compare those two.
