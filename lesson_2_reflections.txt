@@ -17,3 +17,19 @@ How can you use the staging area to make sure you have one commit per logical ch
 You can add only the file with the change to the staging area, so it will be separately committed.
 Also you can compare the staging area to the least commit by using git diff --staged and check if there is only one logical change.
 You can compare the staging area with your working directory by using git diff whithout any parameters to compare those two.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If ayou want to add some additional features, but also keep your working version running and available at the same time.
+Another thing would be if you develop some language features while extending your mainversion with some new features.
+Branches help by splitting up versions. They help you organizing your different development states.
+
+
+How do the diagrams help you visualize the branch structure?
+It shows graphically where some branches split up and which commits can be reached from which branch.
+Also it can show dead commits, that can never be reached from any other branch.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merging two branches together will result in one branch. The new created branch will contain all the commits that were made in the
+branches ordered by timestamp. After merging the branch can be deleted.
