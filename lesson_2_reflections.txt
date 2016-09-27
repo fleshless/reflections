@@ -33,3 +33,9 @@ Also it can show dead commits, that can never be reached from any other branch.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 merging two branches together will result in one branch. The new created branch will contain all the commits that were made in the
 branches ordered by timestamp. After merging the branch can be deleted.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
++ faster
+- could produce bugs
+
