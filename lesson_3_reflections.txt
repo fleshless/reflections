@@ -5,3 +5,7 @@ Also you can store your data on a web repository, so it can be accessed anywhere
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Other people may have been working on the code. It would be possible that parts of code you have written locally won't work anymore.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+a fork is a remnote copy of a repository on git hub, whereas a clone is a local copy of a git hub repository. A branch is just a different state of the repository, not a direct copy.
+Forks are used if your repository should be stored on git hub anyway. Clones can be used if you for example only want to word on that repository locally.
