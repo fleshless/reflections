@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 If you want to work together with other developers or just want to share your code.
 Also you can store your data on a web repository, so it can be accessed anywhere.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Other people may have been working on the code. It would be possible that parts of code you have written locally won't work anymore.
