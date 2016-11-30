@@ -12,3 +12,7 @@ Forks are used if your repository should be stored on git hub anyway. Clones can
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Git recognizes changes that are made locally and in the remote repository, so none of the changes are overwritten when commiting. Differences are spotted by comparing the local copy to the remote repository.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would split the tasks in different objectives. Each party should develop their own parts which aren't logically connected yet.
+It would be harder to find the tasks, so that merging them together in one project would work properly.
